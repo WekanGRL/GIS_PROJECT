@@ -1,0 +1,37 @@
+<html>
+
+<head>
+    <title>Projet Javascript</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Include leaflet dependecies -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css"
+        integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI=" crossorigin="" />
+
+    <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"
+        integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM=" crossorigin=""></script>
+
+    <!-- Include turf dependencies -->
+    <script src="https://unpkg.com/@turf/turf@6/turf.min.js" async></script>
+
+    <!-- Include plotly dependecies -->
+    <script src="https://cdn.plot.ly/plotly-2.18.0.min.js" async></script>
+
+    <script src="./function.js" async> </script>
+</head>
+
+<body>
+    <div id="map"></div>
+    <div id="info">
+        <div id="addresses">
+            <p id="firstAddress"> Point de Départ </p>
+            <p id="secondAddress"> Point d'Arrivée </p>
+        </div>
+        <div id="graph"></div>
+        <button id="effacer" type="button">Effacer</button>
+    </div>
+
+</body>
+
+</html>
